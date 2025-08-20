@@ -1,0 +1,21 @@
+html {
+  /* colors */
+  --color-primary: #0169ff;
+  --color-secondary: #F2F7FF;
+  --color-white: #FFFFFF;
+  --color-error: #FA4D56;
+  --color-success: #42BE65;
+  /* text */
+  --text-color: #25262C;
+  --text-color-secondary: #717687;
+}
+
+#root {
+  min-height: 100vh;
+  background: rgb(245, 245, 245) url("/background.png") right top no-repeat;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+  padding: 6px 20px;
+  border-radius: 10px;
+}
