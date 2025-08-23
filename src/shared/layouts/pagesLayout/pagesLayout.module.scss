@@ -1,0 +1,15 @@
+.layout {
+  margin-top: 72px;
+}
+
+.container {
+  padding-top: 40px
+}
+
+.content {
+  --inline-padding-main: 16px;
+
+  max-width: calc(1280px + var(--inline-padding-main) * 2);
+  margin: 0 auto;
+  padding-inline: 32px;
+}
